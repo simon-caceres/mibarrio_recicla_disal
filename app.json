@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Mi Barrio Recicla",
+    "slug": "Mi-Barrio-Recicla",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/launcher.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#13b27b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.samimetrics.mibarriorecicla"
+    },
+    "android": {
+      "package": "com.samimetrics.mibarriorecicla",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
